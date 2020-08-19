@@ -55,4 +55,15 @@ function handleError(code: number, message: string): never {
     throw new Error(`${code}: ${message}`);
 }
 
-handleError(404, 'Not found');
+//handleError(404, 'Not found');
+
+// Object
+
+let user = {
+    id: 1,
+    username: 'trejocode',
+    password: '*********',
+    isActive: true
+};
+
+console.log(user.username);

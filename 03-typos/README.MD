@@ -70,3 +70,14 @@ function handleError(limit: number): never {
     }
 }
 ```
+
+### Null, Undefined
+
+``` ts
+const nulo: null = null;
+const indefinido: undefined = undefined;
+```
+
+### Tipo Object
+Variable que no es number, string, boolean, null, undefined, etc.
+
