@@ -8,3 +8,11 @@ Deberán ser del tipo descrito, un arreglo de Strings no puede contener un Int
 variableName : typo []
 variableNamed: Array<Typo>
 ```
+
+
+## Tuplas
+``` ts
+// Explicit
+variableName : [typo, typo]
+variableNamed = [1, 'Value']
+```
